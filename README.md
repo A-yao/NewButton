@@ -1,0 +1,7 @@
+# NewButton
+jQuery的最底層的事件綁定有二個，bind與live，
+這二個function的差異在bind是針對HtmlElement綁定，
+而live是對HtmlDocument綁定，
+使用live時會將selector與事件函式儲存，
+當任何HtmlElement發生事件都會同時引發HtmlDocument的事件，
+會檢查引發事件的HtmlElement有沒有符合儲存的selector，符合才會呼叫事件處理函式。
